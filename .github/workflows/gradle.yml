@@ -55,6 +55,10 @@ jobs:
 
   dependency-submission:
 
+    defaults:
+      run:
+        working-directory: demo
+
     runs-on: ubuntu-latest
     permissions:
       contents: write
