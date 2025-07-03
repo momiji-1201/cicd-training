@@ -15,7 +15,7 @@ on:
 
 jobs:
   build:
-    default:
+    defaults:
       run:
         working-directory: demo
 
