@@ -8,7 +8,7 @@ public class SampleTest {
 
     @Test
     public void numAssert(){
-        Integer num = 3 + 3;
-        assertEquals(6, num);
+        Integer num = 2 + 2;
+        assertEquals(4, num);
     }
 }
