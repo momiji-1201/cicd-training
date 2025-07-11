@@ -20,7 +20,7 @@ jobs:
   build:
     defaults:
       run:
-        working-directory: cicd-trainig/demo
+        working-directory: cicd-training/demo
 
     runs-on: ubuntu-latest
     permissions:
@@ -60,7 +60,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: demo
+        working-directory: cicd-training/demo
 
     runs-on: ubuntu-latest
     permissions:
@@ -79,4 +79,4 @@ jobs:
     - name: Generate and submit dependency graph
       uses: gradle/actions/dependency-submission@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
       with: 
-        build-root-directory: demo
+        build-root-directory: cicd-training/demo
