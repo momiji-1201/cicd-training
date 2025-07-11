@@ -9,8 +9,6 @@ name: Java CI with Gradle
 
 on:
   push:
-    paths:
-      - 'cicd-training/**'
   pull_request:
     branches: [ "main" ]
     paths:
