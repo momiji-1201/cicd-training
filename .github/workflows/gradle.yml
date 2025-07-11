@@ -9,13 +9,12 @@ name: Java CI with Gradle
 
 on:
   push:
-    branches: [ "main" ]
     paths:
-      - 'cicd-training/**'
+      - 'cicd-training/demo/**'
   pull_request:
     branches: [ "main" ]
     paths:
-      - 'cicd-training/**'
+      - 'cicd-training/demo/**'
 
 jobs:
   build:
